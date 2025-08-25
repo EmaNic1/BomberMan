@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 1001754449}
   - component: {fileID: 1001754448}
   - component: {fileID: 1001754450}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Destructable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,7 +1692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1491500865}
   - component: {fileID: 1491500864}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2078,6 +2078,12 @@ MonoBehaviour:
   inputKey: 32
   bombFuseTime: 3
   bombAmout: 1
+  explosionPrefab: {fileID: 3289535829971332310, guid: c25a0104321e85f4db9f47812267e82f, type: 3}
+  explosionMask:
+    serializedVersion: 2
+    m_Bits: 128
+  explosionDuration: 1
+  explosionRadius: 1
 --- !u!1 &2062993107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,7 +2096,7 @@ GameObject:
   - component: {fileID: 2062993110}
   - component: {fileID: 2062993109}
   - component: {fileID: 2062993111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Indestructable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
